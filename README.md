@@ -37,27 +37,11 @@ This dashboard introduces financial clarity at the unit economics level.
 
 ### Fields Captured
 
-- product_id  
-- product_name  
-- brand  
-- category  
-- size  
-- quantity  
-- selling_price  
-- cost_price  
-- discount  
-- discount_amount  
-- amount_paid  
-- gift_for_first_time_customer  
-- gift_items  
-- gifts_cost  
-- shipping_cost  
-- shipping_cost_company  
-- total_cost  
-- profit  
-- channel  
-- payment_method  
-
+- product_id                  - size                    - discount                        - gift_items                - total_cost  
+- product_name                - quantity                - discount_amount                 - gifts_cost                - profit  
+- brand                       - selling_price           - amount_paid                     - shipping_cost             - channel  
+- category                    - cost_price              - gift_for_first_time_customer    - shipping_cost_company     - payment_method
+  
 The dataset includes both revenue and full cost breakdown, enabling complete transaction-level profitability analysis.
 
 ---
@@ -106,18 +90,11 @@ Future versions will implement a formal dimensional model for improved scalabili
 
 ## Key KPIs
 
-- Total Revenue  
-- Total Profit  
-- Profit Margin %  
-- Average Order Value  
-- Revenue by Product  
-- Revenue by Brand  
-- Revenue by Category  
-- Revenue by Channel  
-- Revenue by Payment Method  
-- Shipping Cost Impact  
-- Gift Campaign Cost Impact  
-
+- Total Revenue              - Revenue by Product        - Revenue by Payment Method  
+- Total Profit               - Revenue by Brand          - Shipping Cost Impact  
+- Profit Margin %            - Revenue by Category       - Gift Campaign Cost Impact  
+- Average Order Value        - Revenue by Channel
+  
 ---
 
 ## Key Insights
